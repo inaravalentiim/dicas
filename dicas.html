@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Titulo Navegador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styleDicas.css">
+
+</head>
+
+
+<body>
+
+  <div class="tituloPrincipal">
+    <h1> DICAS DE HTML E CSS</h1>
+  </div>
+
+  <!-- -----------------------TIPOS TITULOS------------------------------------>
+
+  <div class="tiposTitulos">
+    <h1>TIPOS DE TÍTULOS E PARÁGRAFOS</h1>
+  </div>
+
+  <h1>Título 1</h1>
+  <h2>Título 2</h2>
+  <h3>Título 3</h3>
+  <h4>Título 4</h4>
+  <h5>Título 5</h5>
+  <h6>Título 6</h6>
+
+  <!-------------------------- PARAGRAFOS-------------------------------------->
+
+  <p>
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+    12345678910
+  </p>
+
+  <p>
+    When I find myself in times of trouble<br>
+    Mother Mary comes to me<br>
+    Speaking words of wisdom<br>
+    Let it be<br>
+  </p>
+
+  <!-------------------------- NAV E LINKS------------------------------------->
+  <div class="nav">
+    <h1>NAVEGAÇÃO E LINKS</h1>
+  </div>
+
+  <nav>
+
+    <ul>
+      <li>
+        <a href="linkDicas.html">
+          Home
+        </a>
+      </li>
+      <li>Sobre</li>
+      <li>Serviços</li>
+      <li>Contato</li>
+    </ul>
+
+  </nav>
+
+  <nav>
+
+    <ol>
+      <li>Home</li>
+      <li>Sobre</li>
+      <li>Serviços</li>
+      <li>Contato</li>
+    </ol>
+
+  </nav>
+
+  <!---------------------------- IMAGEM---------------------------------------->
+  <div class="imagens">
+    <h1>IMAGENS</h1>
+  </div>
+
+  <div class="imagensExemplo">
+    <h2>Imagens Exemplo</h2>
+  </div>
+
+  <a href="#">
+    <h2>HORA DE AVENTURA</h2>
+  </a>
+  <img src="imagens/HoraDeAventura.jpg" alta="Hora de Aventura" />
+  <p>
+    Meu desenho favorito!
+  </p>
+
+
+  <a href="#">
+    <h2>VINGADORES</h2>
+  </a>
+  <img src="imagens/Vingadores.jpg" alta="Vingadores" />
+  <p>
+    Meu filme de super-herói favorito!
+  </p>
+
+  <!------------------------------ TABELAS--------------------------------------->
+  <div class="tabelas">
+    <h1>TABELAS</h1>
+  </div>
+
+
+  <table border="1">
+
+    <thead>
+      <td>#</td>
+      <td>Primeiro</td>
+      <td>Segundo</td>
+    </thead>
+
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>João</td>
+        <td>Maria</td>
+      </tr>
+
+      <tr>
+        <!-- linha -->
+        <td>2</td> <!-- coluna -->
+        <td>Paulo</td>
+        <td>Luisa</td>
+      </tr>
+    </tbody>
+
+
+    <tfoot>
+      <td>#</td>
+      <td>Primeiro</td>
+      <td>Segundo</td>
+    </tfoot>
+
+
+  </table>
+
+
+  <!------------------------------FORM------------------------------------------->
+  <div class="form">
+    <h1>FORM</h1>
+  </div>
+
+
+  <form>
+
+    <div>
+      <label for="name">Nome:
+        <input type="text" id="name" value="Inara Valentim" />
+      </label>
+    </div>
+
+    <div>
+      <label for="email">Email:
+        <input type="email" id="email" required />
+      </label>
+    </div>
+
+    <div>
+      <label>
+        <input type="radio" name="preco" value="150"> R$150,00
+      </label>
+      <label>
+        <input type="radio" name="preco" value="160"> R$160,00
+      </label>
+      <label>
+        <input type="radio" name="preco" value="170"> R$170,00
+      </label>
+      <label>
+        <input type="radio" name="preco" value="180"> R$180,00
+      </label>
+    </div>
+
+
+    <div>
+      <input type="checkbox" name="variosprecos" value="150"> R$150,00
+      <input type="checkbox" name="variosprecos" value="160"> R$160,00
+      <input type="checkbox" name="variosprecos" value="170"> R$170,00
+      <input type="checkbox" name="variosprecos" value="180"> R$180,00
+      <input type="checkbox" name="variosprecos" value="190"> R$190,00
+    </div>
+
+
+    <div>
+      <label>
+        Selecione a Cidade:<br>
+        <select>
+          <option value="" selected>Selecione Uma Cidade</option>
+          <option value="Porto Alegre">Porto Alegre</option>
+          <option value="Franca">Franca</option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select>
+      </label>
+    </div>
+
+    <div>
+      <label>Digite qual o melhor filme:<br>
+        <textarea></textarea>
+      </label>
+    </div>
+
+    <button>Enviar Formulário</button>
+
+  </form>
+
+  <!-------------------------- TAGS ESTRUTURAIS-------------------------------->
+  <div class="tagsEstruturais">
+    <h1>TAGS ESTRUTURAIS</h1>
+  </div>
+
+
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Contato</li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <article>
+
+      <section>
+        <h2>Como Funciona:</h2>
+        <p>Aqui estamos dando dicas para tags estruturais de HTML</p>
+      </section>
+
+      <section>
+        <h2>Tags Estruturais Objetivo:</h2>
+        <p>Elas servem para melhor divisão do nosso site</p>
+      </section>
+
+    </article>
+
+    <aside>
+      <a href="https://facebook.com.br">Facebook</a>
+      <a href="https://twitter.com.br">Twitter</a>
+    </aside>
+
+  </main>
+
+
+  <footer>
+    <p>Endereço: Porto Alegre - RS</p>
+    <ul>
+      <li>Home</li>
+      <li>Sobre</li>
+      <li>Contato</li>
+    </ul>
+  </footer>
+
+
+
+  <!--------------------------- SELETORES css------------------------------------>
+  <div class="seletores">
+    <h1>SELETORES</h1>
+  </div>
+
+
+  <article>
+
+    <section class="informacoes">
+      <p id="texto1">
+        Aqui estamos trabalhando com seletores e<br>
+        qual a melhor maneira de referencia-los em nosso css.
+      </p>
+    </section>
+
+    <section class="informacoes">
+      <p id="texto2">
+        Podemos usar seletores para trabalhar com cores, como no exemplo abaixo:
+      </p>
+    </section>
+
+  </article>
+
+  <article>
+    <div>
+      Aqui usaremos um novo tipo de seletor para trabalhar com cor!
+    </div>
+    <div>
+      Aqui usaremos um novo tipo de seletor para trabalhar com cor!
+    </div>
+    <div>
+      Aqui usaremos um novo tipo de seletor para trabalhar com cor!
+    </div>
+  </article>
+
+  <!--------------------- MARGEM,PADDING E BORDA-------------------------------->
+  <div class="margemPaddingBorda">
+    <h1>MARGEM,PADDING E BORDA</h1>
+  </div>
+
+  <div id="margem">
+    <p>
+      Teste para Margem.
+    </p>
+  </div>
+
+  <hr />
+
+  <div id="padding">
+    <p>
+      Teste para Padding.
+    </p>
+  </div>
+
+  <hr />
+
+
+  <div id="border">
+    <p>
+      Teste para Border.
+    </p>
+  </div>
+
+  <hr />
+
+  <div id="tresJuntos">
+    <p>
+      Teste para os tres juntos.
+    </p>
+  </div>
+
+  <!------------------------------ MAIS SOBRE BORDA------------------------------>
+
+  <div class="borda">
+    <h1>TRABALHANDO COM BORDA</h1>
+  </div>
+
+  <div id="testeParaBorda">
+  </div>
+
+  <!----------------------------- SHADOW--------------------------------------->
+
+  <div class="sombra">
+    <h1>SOMBRAS EM TEXTO E BACKGROUND</h1>
+  </div>
+
+  <div id="testeSombra">
+    <p>
+      Texto para teste de sombra!
+    </p>
+  </div>
+
+</body>
+
+</html>

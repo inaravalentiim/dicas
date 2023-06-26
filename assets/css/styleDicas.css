@@ -1,0 +1,210 @@
+body {
+  background: #FFF6BD;
+}
+
+.tituloPrincipal {
+  color: #86C8BC;
+  background: #FFD4B2;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.tiposTitulos {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+.nav {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+.imagens {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+.imagensExemplo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  padding: 10px;
+  /* o padding é empurrar tudo a partir da ponta pra dentro. */
+  margin: 20px;
+  background: #86C8BC;
+}
+
+.tabelas {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+.form {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+
+}
+
+.tagsEstruturais {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+
+}
+
+.seletores {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+
+}
+
+.informacoes {
+  width: 400px;
+  margin: 0 auto;
+  background: #FFD4B2;
+
+}
+
+#texto1 {
+  color: #fff;
+  padding: 10px;
+}
+
+#texto2 {
+  color: white;
+  padding: 10px;
+}
+
+article div {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+article div:nth-child(1) {
+  background: #FFD4B2;
+}
+
+article div:nth-child(2) {
+  background: #CEEDC7;
+}
+
+article div:nth-child(3) {
+  background: #86C8BC;
+}
+
+.margemPaddingBorda {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+
+}
+
+#margem {
+  margin: 150px 10px 30px 50px;
+  background: #FFD4B2;
+  /* as numerações são em sentido horário*/
+}
+
+#padding {
+  background: #CEEDC7;
+  padding: 30px 50px 45px 150px;
+  /* as numerações são em sentido horário*/
+}
+
+#border {
+  background: #86C8BC;
+  border-top: 10px dotted #fff;
+  border-right: 20px double #fff;
+  border-bottom: 30px groove #fff;
+  border-left: 30px dashed #fff;
+
+}
+
+#tresJuntos {
+  margin: 150px 10px 30px 50px;
+  background: #FFD4B2;
+  padding: 30px 50px 45px 150px;
+  border-top: 10px dotted #fff;
+  border-right: 20px double #fff;
+  border-bottom: 30px groove #fff;
+  border-left: 30px dashed #fff;
+}
+
+.borda {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+#testeParaBorda {
+  width: 200px;
+  height: 200px;
+  background: #FFD4B2;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+
+#testeParaBorda:hover {
+  border-radius: 0%;
+}
+
+.sombra {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+  font-weight: bold;
+  background: #86C8BC;
+}
+
+#testeSombra {
+  position: relative;
+  padding: 30px;
+  background: #FFD4B2;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  transition: all 0.5s;
+}
+
+#testeSombra:hover {
+  bottom: 0.5px;
+  text-shadow: 5px 5px 5px grey;
+  box-shadow: 0 10px 30px grey;
+}
